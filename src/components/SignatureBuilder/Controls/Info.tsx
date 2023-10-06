@@ -13,7 +13,7 @@ export const Info = () => {
 		<StyledInfo>
 		
         <Description>Siga os passos para gerar sua assinatura.</Description>
-        <ol>
+        <ol style={{ fontSize: '14px' }}>
           <li>
 		  	Primeiro você precisa obter uma foto de perfil em conformidade com as diretrizes de marca da BRy.
           </li>

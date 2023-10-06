@@ -13,8 +13,7 @@ export const Preview = () => {
 	const { data } = useControlValue()
 
 	const currentTemplate = () => {
-		switch (data.template) {
-			
+		switch (data.template) {		
 			default:
 				return <TemplateOne />
 		}
