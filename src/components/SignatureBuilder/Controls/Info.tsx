@@ -19,9 +19,12 @@ export const Info = () => {
           </li>
 		  <br />
           <li>
-		  	Envie a foto para o endereço mktdev@bry.com.br e aguarde a aprovação. Após a aprovação, você receberá um e-mail de notificação com instruções adicionais. <a style={{ fontSize: '10px', color: 'white', textDecoration: 'none' }} href='https://brytec.atlassian.net/wiki/spaces/DSYS/pages/166428675/Assinatura+de+e-mail+Marca+ATUAL+Antiga' target='_blank'><b>Acesse a documentação</b></a>
-			<p style={{ fontSize: '14px' }}>Caso você tenha tirado a foto junto ao time de RH durante seu onboarding, ignore os passos 1 e 2.</p>
-          </li>
+		  	Envie a foto para o endereço mktdev@bry.com.br e aguarde a aprovação. Após a aprovação, você receberá um e-mail de notificação com instruções adicionais. <a style={{ fontSize: '11px', color: 'white', textDecoration: 'none' }} href='https://brytec.atlassian.net/wiki/spaces/DSYS/pages/166428675/Assinatura+de+e-mail+Marca+ATUAL+Antiga' target='_blank'><b>Acesse a documentação</b></a>
+		  </li>
+		  <br />
+		  <li>
+			Caso você tenha tirado a foto junto ao time de RH durante seu onboarding, ignore os passos 1 e 2.
+		  </li>
 		  <br />
           <li>
 		  	No e-mail de notificação, você encontrará seu username geral da BRy. Insira a chave 'username' no campo 'foto' do formulário abaixo.
