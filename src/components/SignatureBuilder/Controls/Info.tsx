@@ -19,7 +19,7 @@ export const Info = () => {
           </li>
 		  <br />
           <li>
-		  	Envie a foto para o endereço dev.mkt@bry.com.br e aguarde a aprovação. Após a aprovação, você receberá um e-mail de notificação com instruções adicionais.
+		  	Envie a foto para o endereço mktdev@bry.com.br e aguarde a aprovação. Após a aprovação, você receberá um e-mail de notificação com instruções adicionais. <a style={{ fontSize: '10px', color: 'white', textDecoration: 'none' }} href='https://brytec.atlassian.net/wiki/spaces/DSYS/pages/166428675/Assinatura+de+e-mail+Marca+ATUAL+Antiga' target='_blank'><b>Acesse a documentação</b></a>
 			<p style={{ fontSize: '14px' }}>Caso você tenha tirado a foto junto ao time de RH durante seu onboarding, ignore os passos 1 e 2.</p>
           </li>
 		  <br />
@@ -59,17 +59,7 @@ export const Info = () => {
 					/>
 				))}
 			</Accordion>
-			<Accordion title="Social">
-				{inputList.social.map(input => (
-					<InputText
-						label={input.label}
-						name={input.name}
-						value={data[input.name]}
-						onBlur={updateInfo}
-						key={input.name}
-					/>
-				))}
-			</Accordion>
+			
 		</StyledInfo>
 	)
 }

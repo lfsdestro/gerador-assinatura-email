@@ -205,7 +205,7 @@ export const TemplateOne = () => {
 									data.socialInstagram ||
 									data.socialLinkedin ||
 									data.socialTwitter) && (
-									<tr style={{ position: 'absolute', paddingTop: '29px' }}>
+									<tr style={{ position: 'absolute', paddingTop: '33px' }}>
 										<td style={{ textAlign: 'left' }}>
 											<table
 												cellPadding="0"

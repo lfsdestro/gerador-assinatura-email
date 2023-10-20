@@ -23,7 +23,7 @@ export const inputList = {
 			name: 'mobilePhone',
 		},
 		{
-			label: 'Telefone Opcional',
+			label: 'Telefone Empresarial',
 			name: 'officePhone',
 		}
 	],
